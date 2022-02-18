@@ -1,0 +1,597 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>StartUp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{%static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{%static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{%static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{%static 'css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{%static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{%static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{%static 'css/gijgo.css' %}">
+    <link rel="stylesheet" href="{%static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{%static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{%static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{%static 'css/style.css' %}">
+    <!-- <link rel="stylesheet" href="{%static 'css/responsive.css' %}"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block text-center">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="#home-section">home</a></li>
+                                        <li><a href="#service-section">services</a></li>
+                                        <li><a href="#order-section">Order</a></li>
+                                        <li><a href="#about-section">about</a></li>
+                                        <li><a href="#price-section">Price</a></li>
+                                        <li><a href="#contact-section">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-none d-lg-block">
+                            <div class="log_chat_area d-flex align-items-end">
+                                <a href="#" data-scroll-nav="0" class="say_hi">Place your Order</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area" id="home-section">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-start">
+                    <div class="col-lg-10 col-md-10">
+                        <div class="slider_text">
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                             Leave the dirty cloth to us 
+                             Let us get it done !!
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- service_area  -->
+    <div class="service_area" id="service-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-70">
+                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" >Services</span>
+                        <h3 class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">With more than 5 years of 
+                            experience we assure you the delivery of
+                            best service</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{%static 'img/quality.jpg' %}" height="100" width="200">
+                        </div>
+                        <h3>Quality Clean</h3>
+                        <p>From sorting to washing, drying to folding - our laundry pros know how to give your clothes an optimal clean.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="icon">
+                            <img src="{%static 'img/download.jfif' %}" height="100" width="200">
+                        </div>
+                        <h3>Pick-up & Delivery</h3>
+                        <p>Pick-up and delivery are FREE if your amount exceeds more than Rs.5000 otherwise the price will fairly be determined by the organization</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{%static 'img/easyorder.png' %}" height="100" width="200">
+                        </div>
+                        <h3>Easy Ordering</h3>
+                        <p>Order us online and doing the laundry will be as easy as ordering a pizza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ service_area  -->
+
+    <div class="about_area" id="about-section">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="about_info">
+                        <div class="section_title white_text">
+                            <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">About Us</span>
+                            <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Our motto</h3>
+                            <p class="mid_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">Hamrodhobi is obliged with promised services and customers satisfaction is guaranteed.</p>
+                            <p class="last_text wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Hamro dhobi is a Kathmandu based online on-demand laundry service that aims at providing high quality laundry services.Hamrodhobi is the solution to cure your dirty clothes. We provide laundry service at exceptionally fair rate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="how_we_work_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="work_info">
+                        <div class="section_title">
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">How we work</h3>
+                            <p class="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">We ensure that we find a smile on your face with every service that we provide.</p>
+                            <p class="last_p wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">We provide washing, steam ironing and folding clothes and other value added services to make your life easier.</p>
+                        </div>
+                        <div class="video_watch d-flex align-items-center">
+                            <div class="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <div data-scroll-index="0" class="get_in_tauch_area" id="order-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Place Your Order</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="touch_form">
+                        <form action="orders" method="POST">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                        <input type="text" name="firstname" placeholder="First Name" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="lastname" placeholder="Last Name" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                        <input type="email" name="email" placeholder="Email" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="phone" placeholder="Phone Number" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text"  name="order_placed" id="datepicker" placeholder="Select Date" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="time" placeholder="Select Time Slots" list="time-slots">
+                                        <datalist id="time-slots">
+                                             <option value="9AM - 12PM"/>
+                                             <option value="12PM - 3PM"/>
+                                             <option value="3PM - 6PM"/>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="clothtype" placeholder="Types of Garments" list="Garments">
+                                        <datalist id="Garments">
+                                             <option value="Cloth"/>
+                                             <option value="Blanket"/>
+                                             <option value="Linen"/>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="choose_service" placeholder="Choose Service" list="Service">
+                                        <datalist id="Service">
+                                             <option value="Wash and Fold"/>
+                                             <option value="Wash and Iron"/>
+                                             <option value="Linen"/>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="address" placeholder="Please Enter Address" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" placeholder="Kathmandu" disabled="disabled" >
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-12">
+                                    <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                        <button class="boxed-btn3" type="submit">Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- price start here -->
+      <div class="service_area" id="price-section" >
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-70">
+                        <span class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" ><h4>Prie List</h4></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{%static 'img/quality.jpg' %}" height="100" width="200">
+                        </div>
+                        <h3>Clothes</h3>
+                        <table class="table">
+  <thead class="table-striped">
+    <tr>
+        <th scope="row">#</th>
+      <th scope="col">Services</th>
+      <th scope="col">Price</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Wash and Fold</td>
+      <td>Rs.120/Kg</td>
+
+    </tr>
+    <tr>
+     <th scope="row">2</th>
+      <td>Wash and Iron</td>
+      <td>Rs.150/Kg</td>
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
+                        <div class="icon">
+                            <img src="{%static 'img/easyorder.png' %}" height="100" width="200">
+                        </div>
+                        <h3>Blankets</h3>
+                        <table class="table">
+  <thead class="table-bordered">
+    <tr>
+        <th scope="row">#</th>
+      <th scope="col">Service(Wash and Fold)</th>
+      <th scope="col">Price</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Upto 1Kg</td>
+      <td>Rs.100</td>
+    </tr>
+      <tr>
+      <th scope="row">2</th>
+      <td>1Kg-2Kg</td>
+      <td>Rs.150</td>
+    </tr>
+      <tr>
+      <th scope="row">3</th>
+      <td>2kg-3Kg</td>
+      <td>Rs.200</td>
+    </tr>
+      <tr>
+      <th scope="row">4</th>
+      <td>3Kg-4Kg</td>
+      <td>Rs.250</td>
+    </tr>
+      <tr>
+      <th scope="row">5</th>
+      <td>4Kg-5Kg</td>
+      <td>Rs.300</td>
+    </tr>
+      <tr>
+      <th scope="row">6</th>
+      <td>5Kg-6Kg</td>
+      <td>Rs.350</td>
+    </tr>
+      <tr>
+      <th scope="row">7</th>
+      <td>6Kg-7Kg</td>
+      <td>Rs.400</td>
+    </tr>
+      <tr>
+      <th scope="row">8</th>
+      <td>7Kg-8Kg</td>
+      <td>Rs.450</td>
+    </tr>
+      <tr>
+      <th scope="row">9</th>
+      <td>Above 8Kg</td>
+      <td>Contact us for Price </td>
+    </tr>
+ 
+  </tbody>
+</table>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="icon">
+                            <img src="{%static 'img/download.jfif' %}" height="100" width="200">
+                        </div>
+                        <h3>Linens</h3>
+                       <table class="table">
+        <thead class="table-striped">
+          <tr>
+              <th scope="row">#</th>
+            <th scope="col">Services</th>
+            <th scope="col">Price</th>
+     
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Wash and Fold</td>
+            <td>Rs.120/Kg</td>
+     
+          </tr>
+          <tr>
+           <th scope="row">2</th>
+            <td>Wash and Iron</td>
+            <td>Rs.150/Kg</td>
+          </tr>
+        </tbody>
+      </table>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- price ends here -->
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+    <script >
+        $(function () {
+            $('#datepicker').datepicker({
+                format: "dd/mm/yyyy",
+                autoclose: true,
+                todayHighlight: true,
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                autoclose: true,
+                changeMonth: true,
+                changeYear: true,
+                orientation: "button"
+            });
+        });
+    </script>
+
+    <!-- testimonial_area  -->
+    <div class="testimonial_area ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <p>"Unlike other laundry services, Hamrodhobi offers the personalized,<br>quality service you want 
+                                            with reliability and flexibility<br> you need all at affordable price."</p>
+                                </div>
+                        </div>
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <p>"Unlike other laundry services, Hamrodhobi offers the personalized,<br>quality service you want 
+                                            with reliability and flexibility<br>you need all at affordable price."</p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /testimonial_area  -->
+
+    <div data-scroll-index="0" class="get_in_tauch_area" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center mb-90">
+                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Get in Touch</h3>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="touch_form">
+                        <form action="contact" method="POST">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                        <input type="text" name="name" placeholder="Your Name" >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                                        <input type="email" name="email" placeholder="Email" >
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                        <input type="text" name="subject" placeholder="Subject" >
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="single_input wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                                       <textarea name="message" id="" cols="30" placeholder="Message" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="submit_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                                        <button class="boxed-btn3" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                            <a href="index.html">
+                                <img src="{% static 'img/ilogo.png' %}" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-9">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#about-section">About</a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#service-section">Services</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" href="#">Blog</a></li>
+                                <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s" href="#contact-section">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+       
+
+    <!-- JS here -->
+    <script src="{%static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
+    <script src="{%static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{%static 'js/popper.min.js' %}"></script>
+    <script src="{%static 'js/bootstrap.min.js' %}"></script>
+    <script src="{%static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{%static 'js/isotope.pkgd.min.js' %}"></script>
+    <script src="{%static 'js/ajax-form.js' %}"></script>
+    <script src="{%static 'js/waypoints.min.js' %}"></script>
+    <script src="{%static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{%static 'js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{%static 'js/scrollIt.js' %}"></script>
+    <script src="{%static 'js/jquery.scrollUp.min.js' %}"></script>
+    <script src="{%static 'js/wow.min.js' %}"></script>
+    <script src="{%static 'js/nice-select.min.js' %}"></script>
+    <script src="{%static 'js/jquery.slicknav.min.js' %}"></script>
+    <script src="{%static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{%static 'js/plugins.js' %}"></script>
+    <script src="{%static 'js/gijgo.min.js' %}"></script>
+
+    <!--contact js-->
+    <script src="{%static 'js/contact.js' %}"></script>
+    <script src="{%static 'js/jquery.ajaxchimp.min.js' %}"></script>
+    <script src="{%static 'js/jquery.form.js' %}"></script>
+    <script src="{%static 'js/jquery.validate.min.js' %}"></script>
+    <script src="{%static 'js/mail-script.js' %}"></script>
+
+    <script src="{%static 'js/main.js' %}"></script>
+</body>
+
+</html>
